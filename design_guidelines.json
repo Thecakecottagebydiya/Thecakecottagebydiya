@@ -1,0 +1,139 @@
+{
+  "project_info": {
+    "name": "The Cake Cottage By Diya",
+    "location": "Morinda, Punjab, India",
+    "type": "hybrid_fullstack",
+    "archetype": "1_organic_earthy",
+    "theme": "light"
+  },
+  "design_system": {
+    "colors": {
+      "background": {
+        "primary": "#FAF8F5",
+        "secondary": "#FFFFFF",
+        "accent": "#F2EBE1"
+      },
+      "text": {
+        "primary": "#2C1E16",
+        "secondary": "#5E4A3E",
+        "inverse": "#FAF8F5"
+      },
+      "brand": {
+        "primary": "#D36A52",
+        "primary_hover": "#C17F59",
+        "accent_sage": "#9BABA0"
+      },
+      "status": {
+        "whatsapp": "#25D366",
+        "whatsapp_hover": "#1EBE5A",
+        "error": "#E53E3E"
+      }
+    },
+    "typography": {
+      "fonts": {
+        "heading": "Merienda, cursive",
+        "body": "Outfit, sans-serif"
+      },
+      "scale": {
+        "h1": "text-5xl md:text-6xl tracking-tight leading-tight",
+        "h2": "text-3xl md:text-4xl tracking-tight leading-snug",
+        "h3": "text-2xl md:text-3xl leading-snug",
+        "body": "text-base md:text-lg leading-relaxed",
+        "label": "text-xs md:text-sm tracking-widest uppercase"
+      }
+    },
+    "spacing_and_layout": {
+      "philosophy": "Generous padding, bento grids with slight asymmetry, breathing room to let cake photos shine.",
+      "container_padding": "px-6 md:px-12 lg:px-24 py-16 md:py-24",
+      "card_padding": "p-6 md:p-8",
+      "gap": "gap-8 md:gap-12",
+      "border_radius": {
+        "card": "rounded-3xl",
+        "button": "rounded-full",
+        "image_arch": "rounded-t-[8rem] rounded-b-3xl"
+      }
+    },
+    "components": {
+      "header": "Glassmorphism: backdrop-blur-xl bg-[#FAF8F5]/80, sticky top-0, z-50",
+      "buttons": "Pill shaped (rounded-full). Primary uses Terracotta (#D36A52) with white text. WhatsApp buttons use #25D366.",
+      "cards": "Subtle #E5DCD3 1px border, shadow-sm, bg-white. Neumorphic soft clay touch.",
+      "inputs": "Shadcn based. rounded-xl, border-[#E5DCD3], focus:ring-[#D36A52]"
+    },
+    "testing_attributes": {
+      "rules": "All interactive and key informational elements MUST include data-testid attribute in kebab-case."
+    }
+  },
+  "media": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1693059740560-21151639561f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxlbGVnYW50JTIwYmlydGhkYXklMjBjYWtlfGVufDB8fHx8MTc4MzEzMzE0Nnww&ixlib=rb-4.1.0&q=85",
+      "description": "Elegant white cake with gold decorations, perfect for a high-end warm bakery hero section overlay."
+    },
+    "gallery": [
+      {
+        "category": "Chocolate Cake",
+        "url": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxob21lbWFkZSUyMGNob2NvbGF0ZSUyMGNha2V8ZW58MHx8fHwxNzgzMTMzMTQ2fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Homemade layered chocolate cake slice, looks moist and rich."
+      },
+      {
+        "category": "Floral Custom Cake",
+        "url": "https://images.unsplash.com/photo-1546379782-7b9235cf24ae?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxmbG9yYWwlMjBjdXN0b20lMjBjYWtlfGVufDB8fHx8MTc4MzEzMzE0Nnww&ixlib=rb-4.1.0&q=85",
+        "description": "Beautiful 2-tier cake with floral fondant/buttercream."
+      },
+      {
+        "category": "Elegant Birthday",
+        "url": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwYmlydGhkYXklMjBjYWtlfGVufDB8fHx8MTc4MzEzMzE0Nnww&ixlib=rb-4.1.0&q=85",
+        "description": "Textured stylish cake."
+      }
+    ],
+    "about_image": {
+      "url": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHxiYWtlcnklMjBvd25lciUyMGxpZmVzdHlsZXxlbnwwfHx8fDE3ODMxMzMxNDZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Warm, cozy bakery ambiance photo for the 'About Diya' section."
+    }
+  },
+  "pages_and_flows": {
+    "landing_page": {
+      "hero": {
+        "layout": "Asymmetrical. Large arch-shaped hero image on right, brand text on left. Background is #FAF8F5.",
+        "text": "The Cake Cottage By Diya. 100% Eggless & Fresh Homemade Bakery Cakes.",
+        "cta": "Order on WhatsApp (Primary Button)"
+      },
+      "gallery_section": {
+        "layout": "Bento Grid (cols-1 md:cols-2 lg:cols-3). Cards have generous padding.",
+        "functionality": "Showcase cakes with 'Order Now' WhatsApp deep link pre-filled with the cake name."
+      },
+      "about_section": {
+        "layout": "Side-by-side (Image + Text). Use subtle Sage green accent here to highlight '100% Eggless'. Mention 2 years experience.",
+        "content": "2 years of independent experience and 1 year of training experience. Speciality in customised cakes, any type. 100% eggless and fresh homemade bakery cakes. Order one day in advance."
+      },
+      "order_form_section": {
+        "layout": "Card-based form. Shadcn inputs.",
+        "fields": ["Name", "Phone", "Cake Selection", "Quantity", "Weight", "Flavor", "Delivery Date", "Message on Cake", "Address"],
+        "submit_action": "Composes a WhatsApp URL and redirects. E.g., https://wa.me/919041615117?text=Hi%20Diya..."
+      },
+      "location_and_contact": {
+        "address": "Lighta wala chownk, near back side of Preet Dhaba, Mavi Colony, Morinda, Punjab 140101",
+        "phone": "+91 9041615117",
+        "note": "Order one day in advance"
+      }
+    },
+    "admin_panel": {
+      "layout": "Simple Dashboard (Archetype 1, but focused on utility). bg-[#FAF8F5].",
+      "features": [
+        "Login protected",
+        "Data table of cakes",
+        "Add/Edit/Delete forms for cakes (Name, Description, Price, Category, Image URL)"
+      ]
+    }
+  },
+  "instructions_to_main_agent": [
+    "Build the frontend with React, TailwindCSS, and Shadcn/ui in .js and .jsx extensions.",
+    "Use Merienda font for headings and Outfit for body text (import via Google Fonts).",
+    "Construct WhatsApp URL dynamically: https://wa.me/919041615117?text=encoded_message",
+    "All interactive elements MUST have data-testid. E.g. data-testid='hero-whatsapp-btn'.",
+    "Do not use generic placeholder images. Use the exact URLs provided in the media section.",
+    "Ensure '100% Eggless' is visually distinct, perhaps using the Accent Sage (#9BABA0) color as a badge.",
+    "Admin panel should be functional, use local storage or the FastAPI backend if provided to store and retrieve cake items.",
+    "Form must validate required fields before attempting to redirect to WhatsApp.",
+    "Ensure the hero section uses soft overlays and generous spacing."
+  ]
+}
